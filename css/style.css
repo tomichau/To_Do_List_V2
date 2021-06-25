@@ -1,0 +1,196 @@
+/*General*/
+body{
+    margin: auto;
+    padding: 0;
+    background-color: #d4d4d4 !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+/*Header*/
+h1{
+    text-align: center;
+    color:  black;
+}
+.u {
+    background-color:  #696464;
+    margin-left: auto;
+    transform: translateX(-50%);
+    height: 5px;
+    width: 50%;
+    border-radius: 50px;
+}
+a{
+    margin-left: 10px !important;
+}
+
+/*Section*/
+section{
+    height: 900px;
+}
+.creat{
+    background-color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 25px;
+}
+.creat h3{
+    text-align: center;
+    color:  #00b6ff;
+}
+input{
+    outline: none;
+}
+.creatTitle{
+    border-radius: 25px;
+    border: none;
+    border: 1px black solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 200px;
+    transition: .25s;
+}
+
+.center{
+    margin: 0 auto;
+    width: auto;
+
+}
+textarea{
+    margin: 5px auto;
+    outline: none;
+    resize: none;
+    padding: 5px 3px;
+    border: none;
+    border: 1px black solid;
+    border-radius: 25px;
+    transition: .25s;
+}
+.creat textarea:focus{
+    padding: 2px 12px;
+    border-color: #00b6ff;
+}
+.creat .row div input[type="submit"]{
+    padding: 5px 10px;
+    margin-left: 40%;
+    border: none;
+    border: 1px solid greenyellow;
+    background-color: honeydew;
+    border-radius: 25px;
+    transform: translateX(-20%);
+    transition: .25s;
+}
+.creatButton:hover{
+    background: #00ff74;
+}
+.panels{
+
+    border-radius: 25px;
+    background-color: white;
+    width: 600px;
+    margin: 10px 10px 0 0;
+}
+.panels h4{
+    text-align: center;
+}
+.panel{
+    background-color:  rgba( 193, 193, 193, 0.8);
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.panel .date{
+    top: 10px;
+    color: white;
+    text-align: center;
+}
+.panel input[type="text"]{
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    text-align: center;
+    transition: .25s;
+}
+.panel input[type="text"]:focus{
+    padding: 1px 5px;
+    border-color:  #c7c7c7;
+}
+.panel textarea{
+    transition: 0.25s;
+}
+.panel textarea:focus{
+    padding: 5px 12px;
+    border-color: white;
+}
+input[type='submit'] .delete{
+    border: none !important;
+}
+.pause{
+    color:  #bbbbbb;
+}
+.prog{
+    color:  #00ff74 ;
+}
+.finish{
+    color:  #1fff00;
+}
+.delete{
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    transition: .25s;
+}
+.delete:hover{
+    background-color:  #ff0000;
+    border-color: #ff0000;
+    color: white;
+    width: 27px;
+    height: 27px;
+}
+.modify{
+    margin-left: 5px;
+    border: none;
+    border: 1px solid #97ff00;
+    text-align: center;
+    background: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+    transition: .25s;
+}
+.modify:hover{
+    padding: 5px 12px;
+    background-color:  #97ff00;
+    color: white;
+    border-color:  white;
+}
+.status{
+    border: none;
+    background: none;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    transition: .25s;
+}
+.status:hover{
+    background-color:  #dadada;
+    color:  #6d706f;
+    padding: 5px 12px;
+}
+/*Footer*/
+footer{
+    background-color: #696464;
+    height: 51px;
+}
+p{
+    text-align: center;
+    color:#d4d4d4;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
